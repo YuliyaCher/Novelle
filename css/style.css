@@ -1,0 +1,271 @@
+*, *::before, *::after {
+    box-sizing:  border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+header {
+    width: 1440px 100%;
+    max-height: 100px;
+    font-weight: 600;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.header-left {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.header-left a p {
+    font-size: 11px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.header-left a {
+    margin-left: 30px;
+    text-align: center;
+}
+.header-left a:first-child {
+    margin-top: 15px;
+}
+
+.header-left a {
+    font-size: 16px;
+    text-decoration: none; 
+}
+.header-left ul {
+    justify-content: space-between;
+}
+.menu-nav a {
+    margin-left: 60px;
+}
+
+
+.header-right {
+    display: flex;
+    float: right;
+}
+.header-right a {
+    float: right;
+    margin-right: 71px;
+}
+.header-right a:last-child {
+    margin-left: 34px;
+}
+.header-right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+main {
+    display: flex;
+    background: url("../img/img1.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    justify-content: space-around;
+    height: 696px;
+    align-items: center;
+}
+
+.wrapper {
+    margin-left: 256px;
+    margin-right: 256px;
+    padding-top: 188px;
+    color: white;
+    text-align: center;
+    
+}
+.wrapper h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.wrapper p {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+
+
+select {
+    border-color: white;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+   
+.option select {
+    width: 151px;
+    height: 58px;
+    background-color: white;
+    border-width: 0px;
+}
+option {
+    margin-top: 290px;
+    margin-bottom: 348px;
+   
+}
+.option select:last-child {
+    text-transform: uppercase;
+    background-color: #2665CC;
+    color: white;
+}
+
+option img {
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    width: 210px;
+    height: 41px;
+    left: 615px;
+    top: 473px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 42px;
+    background: none;
+    color: white;
+}
+.btn {
+    margin-top: 35px;
+    font-size: 14px;
+}
+.btn option  {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+
+
+section {
+    margin: 5px;
+}
+
+.columns-top, .columns-bottom:first-child {
+    justify-content: space-between;
+    flex: 50%;
+    padding: 10px;
+    height: 405px;
+    display: flex;
+    flex-direction: row;
+}
+.columns-bottom:last-child {
+    display: flex;
+}
+.column-1, .column-2, .column-3 {
+    color: white;
+    text-align: center;
+    flex: 50%;
+    margin: 5px;
+}
+.column-4 {
+    color: black;
+    margin: 5px;
+    flex: 50%;
+    text-align: start;
+}
+.column-1{
+    background:url("../img/im__left1.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.column-2 {
+    background: url("../img/im__right1.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.column-3 {
+    background: url("../img/im__left2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.column-4 {
+    display: inline;
+    
+}
+.column-4 p {
+    font-size: 16px;
+}
+.col-content {
+    margin-top: 51px;
+    margin-left: 30px;
+    
+}
+ .content {
+     margin-top: 31px;
+     
+ }
+ .content p {
+     font-size: 14px;
+     margin-bottom: 5px;
+ }
+ .more {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 48px;
+    color: rgb(37, 161, 238);
+}
+.btn-col {
+    font-size: 12px;
+    width: 270px;
+    height: 35px;
+    margin-top: 34px;
+}
+ h2 {
+    text-transform: uppercase;
+    margin-top: 122px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.column-4  h2 {
+     margin-top: 0;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ h3 {
+     font-size: 22px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+
+
+
+.footer {
+    width: 1440px;
+    height: 480px;
+    display: inline-flex;
+}
+.column-top {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.col-1, .col-2, .col-3, .col-4 {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footer-2-top p {
+    font-size: 12px;
+}
+
+.footer-2-bottom {
+    display: inline-flex;
+    
+    
+}
+.footer-2-bottom p, img {
+    margin-right: 25px;
+    font-size: 14px;
+}

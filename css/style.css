@@ -1,15 +1,13 @@
-*, *::before, *::after {
-    box-sizing:  border-box;
-}
 body {
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
+    
 }
+
 header {
     width: 1440px 100%;
     max-height: 100px;
-    font-weight: 600;
+    
     background-color: #ffffff;
     position: relative;
     display: flex;
@@ -22,68 +20,82 @@ header {
     text-align: left;
     align-items: center;
 }
+.menu-mob {
+    display: block;
+    margin: 27px;
+}
+.menu-mob p {
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.menu img {
+    display: block;
+    margin: 0 auto;
+    
+}
 
-.header-left a p {
-    font-size: 11px;
-    margin-top: 5px;
-    padding-top: 5px;
+.header-left p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
 }
 .header-left a {
     margin-left: 30px;
     text-align: center;
+    font-size: 16px;
+    text-decoration: none;
 }
 .header-left a:first-child {
     margin-top: 15px;
 }
 
-.header-left a {
-    font-size: 16px;
-    text-decoration: none; 
-}
-.header-left ul {
-    justify-content: space-between;
-}
 .menu-nav a {
     margin-left: 60px;
+    font-size: 14px;
 }
 
-
 .header-right {
-    display: flex;
+    display: block;
     float: right;
 }
 .header-right a {
     float: right;
-    margin-right: 71px;
+    margin-left: 71px;
 }
-.header-right a:last-child {
-    margin-left: 34px;
-}
-.header-right ul {
-    display: flex;
+
+.header-right ul li{
+    display: inline-flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
 
+
 main {
-    display: flex;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
     background: url("../img/img1.png") no-repeat center;
     background-size: cover;
     position: relative;
     justify-content: space-around;
     height: 696px;
     align-items: center;
+
+    justify-content: center;
 }
 
 .wrapper {
-    margin-left: 256px;
-    margin-right: 256px;
     padding-top: 188px;
     color: white;
     text-align: center;
-    
+
+    display: block;
+    margin: 0 auto;
 }
+
 .wrapper h1 {
     text-transform: uppercase;
     font-size: 32px;
@@ -147,21 +159,22 @@ button {
 
 
 
+
 section {
-    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.columns-top, .columns-bottom:first-child {
+.columns-top, .columns-bottom {
     justify-content: space-between;
     flex: 50%;
-    padding: 10px;
     height: 405px;
     display: flex;
     flex-direction: row;
 }
-.columns-bottom:last-child {
-    display: flex;
-}
+
+
 .column-1, .column-2, .column-3 {
     color: white;
     text-align: center;
@@ -183,21 +196,21 @@ section {
     background: url("../img/im__right1.png") no-repeat;
     background-size: cover;
     position: relative;
-}
+   }
 .column-3 {
     background: url("../img/im__left2.png") no-repeat;
     background-size: cover;
     position: relative;
 }
 .column-4 {
-    display: inline;
-    
+    justify-content: center;
 }
+
 .column-4 p {
     font-size: 16px;
 }
 .col-content {
-    margin-top: 51px;
+    margin-top: 21px;
     margin-left: 30px;
     
 }
@@ -269,3 +282,22 @@ section {
     margin-right: 25px;
     font-size: 14px;
 }
+
+/*@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} } 
+
+
+
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+*/
